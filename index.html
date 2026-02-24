@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Utility Launchpad</title>
+  <meta name="description" content="TWOBYONE이 만든 실생활 도구를 검색하고 바로 실행하는 메인 허브" />
+</head>
+<body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.6; max-width: 900px; margin: 40px auto; padding: 0 16px;">
+  <header style="display:flex; justify-content:space-between; align-items:center; gap:12px;">
+    <h1 style="margin:0;">생활 유틸 런치패드</h1>
+    <nav style="display:flex; gap:12px; flex-wrap:wrap;">
+      <a href="./index.html">홈</a>
+      <a href="./about.html">소개</a>
+      <a href="./privacy.html">개인정보처리방침</a>
+      <a href="./contact.html">문의</a>
+    </nav>
+  </header>
+
+  <hr style="margin:20px 0;" />
+
+  <section>
+    <h2>이 사이트는 무엇인가요?</h2>
+    <p>
+      생활 속에서 자주 쓰는 작은 도구(예: 로또 번호 생성, 타이머, 계산기 등)를
+      한 곳에서 빠르게 찾아 실행할 수 있도록 만든 웹 허브입니다.
+      앱/웹 양쪽에서 동일한 목적(빠르게, 가볍게, 바로 사용)을 제공합니다.
+    </p>
+
+    <h2>현재 제공 도구</h2>
+    <ul>
+      <li><strong>로또 번호 자동 생성</strong>: 원하는 조건(포함/제외 번호 등)을 반영해 번호를 빠르게 추천합니다.</li>
+      <li><strong>추가 예정</strong>: 타이머, 단위 변환, 간단 메모, 랜덤 추첨 등</li>
+    </ul>
+
+    <h2>로드맵</h2>
+    <ol>
+      <li>도구별 상세 설명 페이지 추가</li>
+      <li>사용성 개선(검색/즐겨찾기)</li>
+      <li>웹 수익화(AdSense) 검토</li>
+    </ol>
+  </section>
+
+  <footer style="margin-top:40px; padding-top:16px; border-top:1px solid #ddd;">
+    <small>© <span id="y"></span> TWOBYONE</small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
